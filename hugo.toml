@@ -2,6 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = '首页'
 theme = 'ananke'
+canonifyurls = true
+hasCJKLanguage = true
+summaryLength = 30
 publishDir = "docs"
 [markup]
 defaultMarkdownHandler = "goldmark"
